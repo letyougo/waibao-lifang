@@ -1,5 +1,25 @@
 <template>
     <div class="content">
+
+    
+          <el-carousel :interval="4000" type="card" height="400px">
+            <el-carousel-item  :key="item">
+
+                <img width="100%" height="100%" src="http://f11.baidu.com/it/u=3285610716,1088628422&fm=72"/>
+            </el-carousel-item>
+
+            <el-carousel-item  :key="item">
+
+                <img width="100%" height="100%" src="http://f10.baidu.com/it/u=2942494105,612535989&fm=72"/>
+            </el-carousel-item>
+
+            <el-carousel-item  :key="item">
+
+                <img width="100%" height="100%" src="http://img5.imgtn.bdimg.com/it/u=743447686,3607053305&fm=26&gp=0.jpg"/>
+            </el-carousel-item>
+        </el-carousel>
+
+
         <div class="content-outter content-item-1">
             <div class="content-inner">
                 <el-row :gutter="20">
@@ -115,7 +135,7 @@
                     <el-row :gutter="10">
                         <el-col :span="4" v-for="i in 6">
                             <el-card :body-style="{ padding: '0px' }">
-                                <img width="100%" style="display: block" src="http://img5.imgtn.bdimg.com/it/u=2183157230,2924689045&fm=26&gp=0.jpg"></img>
+                                <img width="100%" style="display: block" src="http://img1.imgtn.bdimg.com/it/u=1340226647,3141223728&fm=26&gp=0.jpg"></img>
                                 <div class="des">
                                     <p>成立时间：2015-08-25</p>
                                     <p>服务：车贷/房贷/客户服务</p>

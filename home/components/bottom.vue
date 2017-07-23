@@ -64,6 +64,7 @@ export default {
         padding: 20px;
         background: #324157;
         line-height: 40px;
+        min-width: 1240px;
     }
     .bottom-content{
         width: 1280px;

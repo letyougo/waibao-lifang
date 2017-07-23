@@ -3,25 +3,25 @@
         <el-menu theme="dark" :default-active="activeIndex" class="el-menu-demo" mode="horizontal"
                  @select="handleSelect">
             <el-menu-item index="1">
-                首页
+               <a href="#">首页</a>
             </el-menu-item>
             <el-submenu index="2">
                 <template slot="title">我的工作台</template>
-                <el-menu-item index="2-1">房产再增值管理</el-menu-item>
-                <el-menu-item index="2-2">房产安全保障</el-menu-item>
-                <el-menu-item index="2-3">业务流程</el-menu-item>
+                <el-menu-item index="2-1"><a href="#detail">房产再增值管理</a></el-menu-item>
+                <el-menu-item index="2-2"><a href="#detail">房产安全保障</a></el-menu-item>
+                <el-menu-item index="2-3"><a href="#detail">业务流程</a></el-menu-item>
             </el-submenu>
             <el-submenu index="3">
-                <template slot="title">公司合作</template>
-                <el-menu-item index="3-1">关于理房</el-menu-item>
-                <el-menu-item index="3-2">房产安全保障</el-menu-item>
+                <template slot="title"><a href="#detail">公司合作</a></template>
+                <el-menu-item index="3-1"><a href="#detail">关于理房</a></el-menu-item>
+                <el-menu-item index="3-2"><a href="#detail">房产安全保障</a></el-menu-item>
 
             </el-submenu>
 
             <el-submenu index="4">
-                <template slot="title">新闻活动</template>
-                <el-menu-item index="3-1">公司新闻</el-menu-item>
-                <el-menu-item index="3-2">活动播报</el-menu-item>
+                <template slot="title"><a href="#detail">新闻活动</a></template>
+                <el-menu-item index="3-1"><a href="#detail">公司新闻</a></el-menu-item>
+                <el-menu-item index="3-2"><a href="#detail">活动播报</a></el-menu-item>
 
             </el-submenu>
 
@@ -32,23 +32,7 @@
         </el-menu>
 
 
-        <el-carousel :interval="4000" type="card" height="400px">
-            <el-carousel-item  :key="item">
-
-                <img width="100%" height="100%" src="http://f11.baidu.com/it/u=3285610716,1088628422&fm=72"/>
-            </el-carousel-item>
-
-            <el-carousel-item  :key="item">
-
-                <img width="100%" height="100%" src="http://f10.baidu.com/it/u=2942494105,612535989&fm=72"/>
-            </el-carousel-item>
-
-            <el-carousel-item  :key="item">
-
-                <img width="100%" height="100%" src="http://img5.imgtn.bdimg.com/it/u=743447686,3607053305&fm=26&gp=0.jpg"/>
-            </el-carousel-item>
-        </el-carousel>
-
+      
 
 
 
@@ -89,6 +73,10 @@
 
     a {
         color: #42b983;
+    }
+
+    .top{
+        min-width: 1280px;
     }
 
     .el-carousel__item h3 {
