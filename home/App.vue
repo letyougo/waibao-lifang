@@ -34,4 +34,25 @@ export default {
   li{
     list-style: none;
   }
+  div,li,span,label{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+.item-1,.item-2,.item-3{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  color: red;
+}
+.item-1{
+  background-image: url("http://www.kongsun-hldgs.com/wp-content/uploads/2015/04/home01.jpg");
+}
+
+.item-2{
+  background-image: url("http://www.kongsun-hldgs.com/wp-content/uploads/2015/04/home02.jpg");
+}
+.item-1{
+  background-image: url("http://www.kongsun-hldgs.com/wp-content/uploads/2015/04/home01.jpg");
+}
 </style>

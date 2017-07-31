@@ -6,7 +6,9 @@ import App from './App'
 Vue.config.productionTip = false
 
 import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-default/index.css'
+// import 'element-ui/lib/theme-default/index.css'
+import '../theme/index.css'
+
 Vue.use(ElementUI)
 import VueRouter from 'vue-router'
 
@@ -17,7 +19,10 @@ const router = new VueRouter({
 import 'vue-awesome/icons'
 import Icon from 'vue-awesome/components/Icon'
 Vue.component('icon', Icon)
-/* eslint-disable no-new */
+import 'animate.css'
+import 'vue-fullpage/vue-fullpage.css'
+import VueFullpage from 'vue-fullpage'
+Vue.use(VueFullpage)
 new Vue({
   el: '#app',
     router,
